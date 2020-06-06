@@ -428,7 +428,7 @@
 					return mention.get('value');
 				});
 				results = results.filter(function(result) {
-					return !mentionValues.contains(result.name);
+					return !mentionValues.includes(result.name);
 				});
 			}
 
